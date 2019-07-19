@@ -1,0 +1,91 @@
+body
+{
+   
+    color: white;
+    background-color: darkgray;
+}
+
+.container
+{
+    background-color: white !important;
+    color: black;
+    padding: 0;
+}
+
+form
+{
+    padding: 15px;
+}
+
+header
+{
+    position: relative;
+    height: 110px;
+  text-align: center;
+  background-color: black;
+  color: white !important;
+  font-style: italic;
+   
+   
+}
+
+header h1
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.jumbotron
+{
+    color: black;
+}
+
+
+
+footer
+{
+    height: 90px;
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    background-color: black;
+    color: white !important;
+}
+
+footer p 
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+table
+{
+    width: 100%;
+}
+main
+{
+    height: 600px;
+}
+
+
+/*
+DROP DATABASE IF EXISTS gcc200420045;
+CREATE DATABASE gcc200420045;
+USE gcc200420045;
+
+CREATE TABLE userinfo (
+    user_id int NOT NULL AUTO_INCREMENT,
+    name varchar(50),
+    email varchar(100),
+    city varchar(30),
+    skills varchar(150), 
+    PRIMARY KEY (user_id)
+);
+
+select * from userinfo;
+
+*/
